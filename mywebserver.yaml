@@ -5,4 +5,4 @@
   - name: i want to install webserver on ubuntu
     apt:
       name: "{{ubuntuwebpack}}"
-      state: present
+      state: "{{states}}"

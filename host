@@ -6,7 +6,5 @@
 172.31.12.61
 
 
-[mywebserver1:vars]
-key=value
-ubuntuwebpack=apache2
+
 
