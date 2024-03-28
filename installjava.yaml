@@ -4,6 +4,6 @@
   tasks: 
   - name: i want to install java ubuntu
     apt: 
-      name: openjdk-17-jre
-      state: present
+      name: "{{javaPack}}"
+      state: "{{states}}"
     when: ansible_os_family=="Debian"

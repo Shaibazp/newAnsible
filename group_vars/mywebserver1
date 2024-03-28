@@ -1,3 +1,4 @@
 ---
 ubuntuwebpack: apache2
 states: absent
+javaPack: openjdk-17-jre
