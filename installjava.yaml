@@ -1,0 +1,8 @@
+---
+- hosts: mywebserver1
+  become: yes
+  tasks: 
+  - name: i want to install java ubuntu
+    apt: 
+      name:
+    when: ansible_os_family=="Debian"
