@@ -1,4 +1,4 @@
 ---
 ubuntuwebpack: apache2
-states: absent
+states: present
 javaPack: openjdk-17-jre
