@@ -11,4 +11,4 @@
   - name: restart webserver
     service:
       name: "{{ubuntuwebpack}}"
-      state: "{{present}}"
+      state: restarted
