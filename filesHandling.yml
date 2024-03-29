@@ -4,12 +4,12 @@
   tasks:
   - include_tasks: myfilee.yaml
 
-  # - name: i want to install web server
-  #   apt:
-  #     name: "{{ubuntuwebpack}}"
-  #     state: "{{present}}"
+  - name: i want to install web server
+    apt:
+      name: "{{ubuntuwebpack}}"
+      state: "{{states}}"
   
-  # - name: restart webserver
-  #   service:
-  #     name: "{{ubuntuwebpack}}"
-  #     state: restarted
+  - name: restart webserver
+    service:
+      name: "{{ubuntuwebpack}}"
+      state: restarted
