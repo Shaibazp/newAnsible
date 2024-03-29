@@ -2,7 +2,7 @@
 - hosts: mywebserver1
   become: yes
   tasks:
-  -name:
+  - name:
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
